@@ -5,7 +5,9 @@ import './hompage.styles.scss'
 
 const Homepage = ()=> {
     return(
-     <Directory/>
+        <div className='HomePage' >
+            <Directory/>
+        </div>
     )
 }
 
