@@ -1,0 +1,26 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 70px;
+  margin-bottom: 25px;
+  
+  .logo-container{
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .option-container{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option{
+      padding: 10px 15px;
+      text-decoration: none;
+      color:black;
+    }
+  }
+}
