@@ -21,14 +21,15 @@ $button-active-blue: #1669F2;
     color: black;
     border: 1px solid black;
   }
-}
 
-.google-sign-in{
-  color: white;
-  background-color: $google-blue;
-  
-  &:hover{
-    color: black;
-    background-color: white;
+  &.google-sign-in{
+    color: white;
+    background-color: $google-blue;
+    
+    &:hover{
+      background-color: $button-active-blue;
+      border: none;
+    }
   }
 }
+

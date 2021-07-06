@@ -1,3 +1,10 @@
-.sign-up{
+.sign-in{
+  display: flex;
   width: 30%;
+  flex-direction: column;
+
+  .title{
+    margin: 10px 0px;
+  }
+
 }

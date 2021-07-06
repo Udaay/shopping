@@ -1,7 +1,20 @@
 .sign-in{
+  display: flex;
   width: 30%;
-}
+  flex-direction: column;
 
-h2{
-  margin-bottom: 5px;
+  .title{
+    margin: 10px 0px;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .custom-button{
+      margin-bottom: 10px;
+    }
+  }
+  
 }
