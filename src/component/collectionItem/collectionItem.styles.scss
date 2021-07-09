@@ -1,4 +1,5 @@
 .collectionItem{
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 22%;
@@ -11,6 +12,17 @@
     width: 100%;
     height: 95%;
     margin-bottom: 5px;
+  }
+
+  .custom-button{
+    position: absolute;
+    width: 100%;
+    bottom: 22px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
   }
 
   .itemFooter{
