@@ -2,6 +2,9 @@ $google-blue: #4285f4;
 $button-active-blue: #1669F2;
 
 .custom-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
   color: white;
   border: none;
@@ -29,6 +32,17 @@ $button-active-blue: #1669F2;
     &:hover{
       background-color: $button-active-blue;
       border: none;
+    }
+  }
+
+  &.inverted-style{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+    &:hover{
+      background-color: black;
+      color: white;
     }
   }
 }
