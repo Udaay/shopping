@@ -2,16 +2,20 @@ import React, {Component} from "react";
 import { Route, Switch, Redirect} from 'react-router-dom';
 import { connect } from "react-redux";
 import { createStructuredSelector } from 'reselect'
-import "./App.css";
 
 import Homepage from './pages/homePage/homepage.component'
 import ShopePage from './pages/ShopPage/shopepage.component'
 import SignINAndSignUpPage from './pages/signIn-and-signUp-pages/signIn-and-signUp-pages.component'
+import CheckoutPage from "./pages/checkoutPage/checkoutpage.component";
+
 import Header from './component/header/header.component'
+
 import {auth, createUserProfileDocument } from './firebase/firebase.utils';
+
 import {setCurrentUser} from './redux/user/user.actions'
 import {selectCurrentUser} from './redux/user/user.selectors'
 
+import "./App.css";
 class App extends Component {
   unSubscribeFromAuth = null;
 
@@ -42,9 +46,14 @@ class App extends Component {
       <div>
         <Header />
       <Switch>
-        <Route exact path='/signin' render = {() =>  (this.props.currentUser) ? <Redirect to='/' /> : <SignINAndSignUpPage/> } />
+        <Route exact path='/signin' render = {
+          () =>  (this.props.currentUser)
+          ? <Redirect to='/' />
+          : <SignINAndSignUpPage/>
+          }/>
         <Route exact path='/' component = { Homepage } />
         <Route exact path='/shop' component = { ShopePage } />
+        <Route exact path='/checkout' component = { CheckoutPage } />
       </Switch>
       </div>
     );
