@@ -52,7 +52,7 @@ class App extends Component {
           : <SignINAndSignUpPage/>
           }/>
         <Route exact path='/' component = { Homepage } />
-        <Route exact path='/shop' component = { ShopePage } />
+        <Route path='/shop' component = { ShopePage } />
         <Route exact path='/checkout' component = { CheckoutPage } />
       </Switch>
       </div>

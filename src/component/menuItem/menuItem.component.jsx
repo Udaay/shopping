@@ -12,6 +12,7 @@ const MenuItem = (props) => {
     <div
       className={`${size} menu-item`}
       onClick={() => {
+        console.log(props, "linkURLK");
         history.push(`${match.url}${linkUrl}`);
       }}
     >
