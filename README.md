@@ -1,10 +1,10 @@
-### Shop Exclusive at Urban Vogue
+<h1 align="center" > Shop Exclusive at Urban Vogue </h1>
 <p align="center">
   <img  alt="Logo" height="128px" width="128px" src="./src/assets/crown.svg">
 </p>
 
 
-### A self learning project to implement React and React Router
+<h2 align= "center" A self learning project to implement React, Redux, React Router by integrating Stripe Payment API and firebase> <h2>
 
 ## Objective:
 - To implement the basic understanding of React.
