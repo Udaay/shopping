@@ -1,7 +1,6 @@
 {
   "name": "urban-vogue",
   "version": "0.1.0",
-  "homepage": "http://Udaay.github.io/urban-vogue",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
