@@ -17,7 +17,7 @@ const StripeCheckoutButton = ({ price }) => {
       image="https://stripe.com/img/documentation/checkout/marketplace.png"
       description={`Your total value is $${price}`}
       amount={price * 100}
-      name="CRWN Shopping Ltd."
+      name="Urban Vogue Ltd."
       token={onToken}
       stripeKey={publisherKey}
       shippingAddress
