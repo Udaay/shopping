@@ -8,7 +8,7 @@
 
 ## Objective:
 - To implement the basic understanding of React.
-- Understand the integration Stripe Payment API.
+- Understand the integration of Stripe Payment API.
 - Authenticate users by using firebase.
 - Understanding React Router and Redux Store.
 
