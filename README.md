@@ -4,7 +4,7 @@
 </p>
 
 
-<h2 align= "center" A self learning project to implement React, Redux, React Router by integrating Stripe Payment API and firebase> <h2>
+<h2 align= "center"> A self learning project to implement React, Redux, React Router by integrating Stripe Payment API and firebase <h2>
 
 ## Objective:
 - To implement the basic understanding of React.
