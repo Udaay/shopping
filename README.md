@@ -17,4 +17,4 @@
 - Run `npm start` to start the development server.
 
 ## Website Link:
-#### https://urban-vogue.netlify.app/shop
+#### https://urban-vogue.netlify.app
